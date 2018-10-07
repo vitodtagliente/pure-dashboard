@@ -1,0 +1,37 @@
+<?php
+
+if( count($argv) <= 1 ){
+	echo "\n\n\tWelcome to PURE\n\n\n";
+	echo '' .
+	"                                /		\n".
+    "                     __       //		\n".
+    "                     -\= \=\ //		\n".
+    "                   --=_\=---//=--		\n".
+    "                 -_==/  \/ //\/--		\n".
+    "                  ==/   /O   O\==--	\n".
+    "     _ _ _ _     /_/    \  ]  /--		\n".
+    "    /\ ( (- \    /       ] ] ]==-		\n".
+    "   (\ _\_\_\-\__/     \  (,_,)--		\n".
+    "  (\_/                 \     \-		\n".
+    "  \/      /       (   ( \  ] /)		\n".
+    "  /      (         \   \_ \./ )		\n".
+    "  (       \         \      )  \		\n".
+    "  (       /\_ _ _ _ /---/ /\_  \		\n".
+    "   \     / \     / ____/ /   \  \		\n".
+    "   (   /   )   / /  /__ )   (  )		\n".
+    "    (  )   / __/ '---`       / /		\n".
+    "    \  /   \ \             _/ /		\n".
+    "    ] ]     )_\_         /__\/			\n".
+    "    /_\     ]___\						\n".
+    "   (___)								\n\n";
+    exit;
+}
+
+// remove 'pure' from the arguments
+$remove_pure = array_shift($argv);
+
+// launch the application in shell mode
+$shell_mode = true;
+include_once __DIR__ . '/index.php';
+
+?>

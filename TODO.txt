@@ -1,0 +1,7 @@
+. migrations da cmd
+
+. middleware sul router
+
+. Aggiornare Documentation pure and pure-components
+
+. controllare il corretto funzionamento della funzione base_url

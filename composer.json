@@ -1,0 +1,26 @@
+{
+    "name": "vitodtagliente/pure",
+    "description": "A fresh and fast PHP micro framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vito Domenico Tagliente",
+            "email": "vitodomenicotagliente@gmail.com"
+        }
+    ],
+    "require": {
+        "vitodtagliente/pure-routing": "dev-master",
+        "vitodtagliente/pure-orm": "dev-master",
+        "vitodtagliente/pure-template": "dev-master",
+        "vitodtagliente/pure-core": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pure\\Commands\\": "kernel/commands",
+            "App\\": "app/",
+            "Module\\": "modules/"
+        }
+    },
+    "minimum-stability": "dev"
+}

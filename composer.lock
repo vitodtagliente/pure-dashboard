@@ -1,0 +1,163 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "614dcc02b5889fce4ce1fe160deadc7a",
+    "packages": [
+        {
+            "name": "vitodtagliente/pure-core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vitodtagliente/pure-core.git",
+                "reference": "c9733b3139f455e834a3d0cc2c08236ce22fbd37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vitodtagliente/pure-core/zipball/c9733b3139f455e834a3d0cc2c08236ce22fbd37",
+                "reference": "c9733b3139f455e834a3d0cc2c08236ce22fbd37",
+                "shasum": ""
+            },
+            "require": {
+                "vitodtagliente/pure-orm": "dev-master",
+                "vitodtagliente/pure-routing": "dev-master",
+                "vitodtagliente/pure-template": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pure\\": ""
+                },
+                "files": [
+                    "dev.api.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vito Domenico Tagliente",
+                    "email": "vitodomenicotagliente@gmail.com"
+                }
+            ],
+            "description": "The Pure Core Component",
+            "time": "2018-08-21T21:35:47+00:00"
+        },
+        {
+            "name": "vitodtagliente/pure-orm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vitodtagliente/pure-orm.git",
+                "reference": "d4f2db6d8857783435a4938a5c629d0cfad0d681"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vitodtagliente/pure-orm/zipball/d4f2db6d8857783435a4938a5c629d0cfad0d681",
+                "reference": "d4f2db6d8857783435a4938a5c629d0cfad0d681",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pure\\ORM\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vito Domenico Tagliente",
+                    "email": "vitodomenicotagliente@gmail.com"
+                }
+            ],
+            "description": "The Pure ORM Component",
+            "time": "2018-08-21T21:42:07+00:00"
+        },
+        {
+            "name": "vitodtagliente/pure-routing",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vitodtagliente/pure-routing.git",
+                "reference": "0f99014255e6b419f7df7c0b12210b3f31c3750c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vitodtagliente/pure-routing/zipball/0f99014255e6b419f7df7c0b12210b3f31c3750c",
+                "reference": "0f99014255e6b419f7df7c0b12210b3f31c3750c",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pure\\Routing\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vito Domenico Tagliente",
+                    "email": "vitodomenicotagliente@gmail.com"
+                }
+            ],
+            "description": "The Pure Routing Component",
+            "time": "2017-09-10T16:12:34+00:00"
+        },
+        {
+            "name": "vitodtagliente/pure-template",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vitodtagliente/pure-template.git",
+                "reference": "418dd9f2f727bb778f37e8155b7605290bc57f58"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vitodtagliente/pure-template/zipball/418dd9f2f727bb778f37e8155b7605290bc57f58",
+                "reference": "418dd9f2f727bb778f37e8155b7605290bc57f58",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pure\\Template\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vito Domenico Tagliente",
+                    "email": "vitodomenicotagliente@gmail.com"
+                }
+            ],
+            "description": "The Pure Template Component",
+            "time": "2018-08-21T21:43:20+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "vitodtagliente/pure-routing": 20,
+        "vitodtagliente/pure-orm": 20,
+        "vitodtagliente/pure-template": 20,
+        "vitodtagliente/pure-core": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
