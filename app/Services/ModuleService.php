@@ -9,6 +9,11 @@ use Pure\Auth;
 class ModuleService extends Service {
 
     public function boot(){
+
+        // check if logged in
+        if(Auth::check() == false)
+            return;
+
         // get all modules
         $modules = Module::all();
         // if there aren't modules, exit
@@ -17,10 +22,6 @@ class ModuleService extends Service {
         // be sure that the application is valid
         $app = Application::main();
         assert($app);
-
-        // check if logged in
-        if(Auth::check() == false)
-            return;
 
         // get the user model
         $user = Auth::user();
@@ -43,7 +44,7 @@ class ModuleService extends Service {
     }
 
     public function start(){
-
+        
     }
 
     public function stop(){

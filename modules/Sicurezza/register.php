@@ -4,7 +4,7 @@
 
 {
     $app = \Pure\Application::main();
-    $app->registerSchema('\Module\Sicurezza\Schemas\CodiceAtecoSchema');
+    $app->registerSchema('\Module\Sicurezza\Models\CodiceAteco');
 
     $sidebar = \App\Libraries\Sidebar::main();
     $sidebar->register(

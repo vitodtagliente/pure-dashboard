@@ -12,7 +12,7 @@ class AuthController extends Controller {
         if(Auth::check())
         {
             // already logged in
-            redirect('dashboard');
+            redirect(base_url('dashboard'));
         }
     	else view('auth/login.php');
     }
@@ -27,14 +27,14 @@ class AuthController extends Controller {
 
         if(Auth::authenticate("email = '$email' AND password = '$password'"))
         {
-            redirect('dashboard');
+            redirect(base_url('dashboard'));
         }
         else redirect(base_url('login', array('msg' => 'Authentication failed')));
     }
 
     public function logout(){
         Auth::logout();
-        redirect('login');
+        redirect(base_url('login'));
     }
 }
 

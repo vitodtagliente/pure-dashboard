@@ -5,14 +5,13 @@ use Pure\Model;
 
 class CodiceAteco extends Model
 {
-    public function __construct(){
-        $this->field('id');
-        $this->field('name');
-        $this->field('description');
-        $this->field('danger_class');
-        $this->field('active');
-        $this->id('id');
-    }
+	public static function define($schema)
+	{
+		$schema->id();
+		$schema->char('name');
+		$schema->char('description', 50)->nullable();
+		$schema->boolean('active')->default(true);
+	}
 }
 
 ?>

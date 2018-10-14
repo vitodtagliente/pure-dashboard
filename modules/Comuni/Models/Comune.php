@@ -5,17 +5,17 @@ use Pure\Model;
 
 class Comune extends Model
 {
-    public function __construct(){
-        $this->field('id');
-        $this->field('nome');
-        $this->field('provincia');
-        $this->field('cap');
-        $this->field('istat');
-        $this->field('regione');
-        $this->field('prefisso');
-        $this->field('link');
-        $this->field('active');
-        $this->id('id');
+    public static function define($schema)
+    {
+        $schema->id();
+        $schema->char('istat');
+        $schema->char('nome')->unique();
+        $schema->char('provincia', 5);
+        $schema->char('cap', 8);
+        $schema->char('regione');
+        $schema->char('prefisso', 8)->nullable();
+        $schema->char('link', 50);
+        $schema->boolean('active')->default(true);
     }
 }
 

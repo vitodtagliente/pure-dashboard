@@ -28,8 +28,8 @@ return array(
 	// put there the Schemas that should be created at startup time
 	// 'schemas' => array(),
 	'schemas' => array(
-		'App\Schemas\UserSchema',
-		'App\Schemas\ModuleSchema'
+		'App\Models\User',
+		'App\Models\Module'
 	),
 
 	// Enable to show database queries in debug mode

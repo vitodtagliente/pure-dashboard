@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vitodtagliente/pure-core.git",
-                "reference": "c9733b3139f455e834a3d0cc2c08236ce22fbd37"
+                "reference": "3154de9976c54f08b797ba7481329ef66dfe62da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vitodtagliente/pure-core/zipball/c9733b3139f455e834a3d0cc2c08236ce22fbd37",
-                "reference": "c9733b3139f455e834a3d0cc2c08236ce22fbd37",
+                "url": "https://api.github.com/repos/vitodtagliente/pure-core/zipball/3154de9976c54f08b797ba7481329ef66dfe62da",
+                "reference": "3154de9976c54f08b797ba7481329ef66dfe62da",
                 "shasum": ""
             },
             "require": {
@@ -45,7 +45,7 @@
                 }
             ],
             "description": "The Pure Core Component",
-            "time": "2018-08-21T21:35:47+00:00"
+            "time": "2018-10-14T16:07:30+00:00"
         },
         {
             "name": "vitodtagliente/pure-orm",
@@ -53,12 +53,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vitodtagliente/pure-orm.git",
-                "reference": "d4f2db6d8857783435a4938a5c629d0cfad0d681"
+                "reference": "10d6346fdcaeaaa8ba8a7ab0f4d2f98541380b8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vitodtagliente/pure-orm/zipball/d4f2db6d8857783435a4938a5c629d0cfad0d681",
-                "reference": "d4f2db6d8857783435a4938a5c629d0cfad0d681",
+                "url": "https://api.github.com/repos/vitodtagliente/pure-orm/zipball/10d6346fdcaeaaa8ba8a7ab0f4d2f98541380b8f",
+                "reference": "10d6346fdcaeaaa8ba8a7ab0f4d2f98541380b8f",
                 "shasum": ""
             },
             "type": "library",
@@ -78,7 +78,7 @@
                 }
             ],
             "description": "The Pure ORM Component",
-            "time": "2018-08-21T21:42:07+00:00"
+            "time": "2018-10-14T15:14:23+00:00"
         },
         {
             "name": "vitodtagliente/pure-routing",
@@ -86,12 +86,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vitodtagliente/pure-routing.git",
-                "reference": "0f99014255e6b419f7df7c0b12210b3f31c3750c"
+                "reference": "ed64cc00fcf727433e096de9a48a83330012218f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vitodtagliente/pure-routing/zipball/0f99014255e6b419f7df7c0b12210b3f31c3750c",
-                "reference": "0f99014255e6b419f7df7c0b12210b3f31c3750c",
+                "url": "https://api.github.com/repos/vitodtagliente/pure-routing/zipball/ed64cc00fcf727433e096de9a48a83330012218f",
+                "reference": "ed64cc00fcf727433e096de9a48a83330012218f",
                 "shasum": ""
             },
             "type": "library",
@@ -111,7 +111,7 @@
                 }
             ],
             "description": "The Pure Routing Component",
-            "time": "2017-09-10T16:12:34+00:00"
+            "time": "2018-10-07T17:36:39+00:00"
         },
         {
             "name": "vitodtagliente/pure-template",

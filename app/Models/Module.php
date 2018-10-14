@@ -5,13 +5,21 @@ use Pure\Model;
 
 class Module extends Model
 {
-    public function __construct(){
-        $this->field('id');
-        $this->field('name');
-        $this->field('description');
-        $this->field('active');
-        $this->field('role');
-        $this->id('id');
+    public static function define($schema)
+    {
+    	$schema->id();
+    	$schema->char('name')->unique();
+    	$schema->text('description')->nullable();
+    	$schema->boolean('active')->default(true);
+    	$schema->integer('role')->default(1);
+    }
+
+    public static function seed(){
+        $module = new Module;
+        $module->name = 'ModuleManager';
+        $module->description = 'Modulo per la gestione dei moduli';
+        $module->role = 100;
+        $module->save();
     }
 }
 

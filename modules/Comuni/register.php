@@ -4,7 +4,7 @@
 
 {
     $app = \Pure\Application::main();
-    $app->registerSchema('\Module\Comuni\Schemas\ComuneSchema');
+    $app->registerSchema('\Module\Comuni\Models\Comune');
 
     $sidebar = \App\Libraries\Sidebar::main();
     $sidebar->register(
