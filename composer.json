@@ -22,5 +22,23 @@
             "Module\\": "modules/"
         }
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "C:/Users/HackJ/Desktop/pure packages/pure-core"
+        },
+        {
+            "type": "path",
+            "url": "C:/Users/HackJ/Desktop/pure packages/pure-routing"
+        },
+        {
+            "type": "path",
+            "url": "C:/Users/HackJ/Desktop/pure packages/pure-orm"
+        },
+        {
+            "type": "path",
+            "url": "C:/Users/HackJ/Desktop/pure packages/pure-template"
+        }
+    ],
     "minimum-stability": "dev"
 }

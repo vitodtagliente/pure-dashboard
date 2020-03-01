@@ -4,21 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "614dcc02b5889fce4ce1fe160deadc7a",
+    "content-hash": "57087d10fc11577c4329449755fe09d0",
     "packages": [
         {
             "name": "vitodtagliente/pure-core",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vitodtagliente/pure-core.git",
-                "reference": "3154de9976c54f08b797ba7481329ef66dfe62da"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/vitodtagliente/pure-core/zipball/3154de9976c54f08b797ba7481329ef66dfe62da",
-                "reference": "3154de9976c54f08b797ba7481329ef66dfe62da",
-                "shasum": ""
+                "type": "path",
+                "url": "C:/Users/HackJ/Desktop/pure packages/pure-core",
+                "reference": "c156aab23fafc4c74cc0c191d1f7dd527fea4b24"
             },
             "require": {
                 "vitodtagliente/pure-orm": "dev-master",
@@ -34,7 +28,6 @@
                     "dev.api.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -44,22 +37,15 @@
                     "email": "vitodomenicotagliente@gmail.com"
                 }
             ],
-            "description": "The Pure Core Component",
-            "time": "2018-10-14T16:07:30+00:00"
+            "description": "The Pure Core Component"
         },
         {
             "name": "vitodtagliente/pure-orm",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vitodtagliente/pure-orm.git",
-                "reference": "10d6346fdcaeaaa8ba8a7ab0f4d2f98541380b8f"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/vitodtagliente/pure-orm/zipball/10d6346fdcaeaaa8ba8a7ab0f4d2f98541380b8f",
-                "reference": "10d6346fdcaeaaa8ba8a7ab0f4d2f98541380b8f",
-                "shasum": ""
+                "type": "path",
+                "url": "C:/Users/HackJ/Desktop/pure packages/pure-orm",
+                "reference": "04d80106430f45f82f922cc9da25de3d278dbb94"
             },
             "type": "library",
             "autoload": {
@@ -67,7 +53,6 @@
                     "Pure\\ORM\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -77,22 +62,15 @@
                     "email": "vitodomenicotagliente@gmail.com"
                 }
             ],
-            "description": "The Pure ORM Component",
-            "time": "2018-10-14T15:14:23+00:00"
+            "description": "The Pure ORM Component"
         },
         {
             "name": "vitodtagliente/pure-routing",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vitodtagliente/pure-routing.git",
-                "reference": "ed64cc00fcf727433e096de9a48a83330012218f"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/vitodtagliente/pure-routing/zipball/ed64cc00fcf727433e096de9a48a83330012218f",
-                "reference": "ed64cc00fcf727433e096de9a48a83330012218f",
-                "shasum": ""
+                "type": "path",
+                "url": "C:/Users/HackJ/Desktop/pure packages/pure-routing",
+                "reference": "f36396e20838464bf7ccd4b34ef5660cdb255ae1"
             },
             "type": "library",
             "autoload": {
@@ -100,7 +78,6 @@
                     "Pure\\Routing\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -110,22 +87,15 @@
                     "email": "vitodomenicotagliente@gmail.com"
                 }
             ],
-            "description": "The Pure Routing Component",
-            "time": "2018-10-07T17:36:39+00:00"
+            "description": "The Pure Routing Component"
         },
         {
             "name": "vitodtagliente/pure-template",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vitodtagliente/pure-template.git",
-                "reference": "418dd9f2f727bb778f37e8155b7605290bc57f58"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/vitodtagliente/pure-template/zipball/418dd9f2f727bb778f37e8155b7605290bc57f58",
-                "reference": "418dd9f2f727bb778f37e8155b7605290bc57f58",
-                "shasum": ""
+                "type": "path",
+                "url": "C:/Users/HackJ/Desktop/pure packages/pure-template",
+                "reference": "d3f3e38d7e425a5f9f6e17df405037f6001ff3e9"
             },
             "type": "library",
             "autoload": {
@@ -133,7 +103,6 @@
                     "Pure\\Template\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -143,8 +112,7 @@
                     "email": "vitodomenicotagliente@gmail.com"
                 }
             ],
-            "description": "The Pure Template Component",
-            "time": "2018-08-21T21:43:20+00:00"
+            "description": "The Pure Template Component"
         }
     ],
     "packages-dev": [],
