@@ -15,7 +15,7 @@ return array(
         'host' => 'localhost',
         'name' => 'pure',
         'username' => 'root',
-        'password' => ''
+        'password' => 'root'
     ],
 
     // production database

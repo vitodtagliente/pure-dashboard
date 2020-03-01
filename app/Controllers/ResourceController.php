@@ -13,7 +13,7 @@ abstract class ResourceController extends Controller {
         $models = array();
         foreach($this->get_model_class()::all() as $model)
         {
-            array_push($models, $model->data());
+            array_push($models, $model->getData());
         }
         response($models);
     }
