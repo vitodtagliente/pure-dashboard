@@ -7,11 +7,11 @@ class Module extends Model
 {
     public static function define($schema)
     {
-    	$schema->id();
-    	$schema->char('name')->unique();
-    	$schema->text('description')->nullable();
-    	$schema->boolean('active')->default(true);
-    	$schema->integer('role')->default(1);
+        $schema->id();
+        $schema->char('name')->unique();
+        $schema->text('description')->nullable();
+        $schema->boolean('active')->default(true);
+        $schema->integer('role')->default(1);
     }
 
     public static function seed(){
